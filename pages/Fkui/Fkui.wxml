@@ -1,0 +1,18 @@
+<view class="top">
+    <image src='../img/Fkui.png'></image>
+    <navigator url=''>
+        您有什么问题或建议想对我说？
+    </navigator>  
+</view>
+<form bindsubmit='formSubmit'>
+    <input name='title' placeholder='您的主题：'></input>
+    <textarea placeholder='您的宝贵意见，就是我们进步的源泉' name='text'>
+    
+    </textarea>
+    <view class='Txing'>
+      （*^_^*)请详细描述您遇到的问题，有助于我们快速定位并解决问   题，或留下您宝贵的建议或意见，我们会认真进行评估！  
+    </view> 
+    <button form-type='submit'>
+        提交问题
+    </button>
+</form> 

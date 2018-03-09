@@ -1,0 +1,18 @@
+<view class="title">
+    {{new.title}}
+</view>
+<view class="Sjian">
+    <view>
+        {{new.source}}
+    </view> 
+    <view>
+        {{new.data}}
+    </view> 
+</view>
+<block wx:for='{{new.img}}'>
+  <image src='{{item}}'></image>
+</block>
+<view class='p' wx:for='{{new.text}}'>
+  {{item}}
+</view>
+

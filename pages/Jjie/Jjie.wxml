@@ -1,0 +1,45 @@
+<view class="fixtop">
+    <view class="top-item {{num==idx?'top-active':''}}" bindtap='SwitchTap' wx:for="{{Jjie}}" wx:for-index='idx' data-num='{{idx}}'>
+      {{item.name}}
+    </view>
+</view>
+<view class='main'>
+    <view class='Bti'>
+       {{Jjie[num].title}}
+    </view>
+    <view class='FBti'>
+      {{Jjie[num].subtitle}}
+    </view>
+    <block wx:for='{{Jjie[num].text}}'>
+      <view class='p'>
+          {{item}}
+      </view>
+    </block>
+</view>
+<!-- 底部导航 -->
+<view id='bottom'>
+    <navigator url='../index/index' open-type='redirect'>
+        <image src='../img/index.png'></image>
+        <view>
+          首页
+        </view>
+    </navigator>
+     <navigator url='../Jjie/Jjie' open-type='redirect'>
+        <image src='../img/Jjie-active.png'></image>
+        <view class='blue'>
+          企业简介
+        </view>
+    </navigator>
+     <navigator url='../Jshao/Jshao' open-type='redirect'>
+        <image src='../img/Jshao.png'></image>
+        <view>
+          产品介绍
+        </view>
+    </navigator>
+     <navigator url='../Lxi/Lxi' open-type='redirect'>
+        <image src='../img/Kfu.png'></image>
+        <view>
+          联系我们
+        </view>
+    </navigator>
+</view>

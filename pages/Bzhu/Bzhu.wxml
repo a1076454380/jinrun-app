@@ -1,0 +1,11 @@
+<view class="Bzhu" wx:for="{{questions}}">
+    <image src='../img/question.png'></image>
+    <view class='right'>
+        <view class='title'>
+            {{item.question}}
+        </view>
+        <view class='main'>
+            {{item.answer}}
+        </view>
+    </view> 
+</view>

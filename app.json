@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/Jjie/Jjie",
+    "pages/index/index",
+    "pages/Fkui/Fkui",
+    "pages/Xqing/Xqing",
+    "pages/Jshao/Jshao",
+    "pages/Bzhu/Bzhu",
+    "pages/Lxi/Lxi",
+    "pages/Xwen/Xwen" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "rgb(0,90,171)",
+    "navigationBarTitleText": "京润",
+    "navigationBarTextStyle":"white"
+  }
+}

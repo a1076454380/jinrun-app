@@ -1,0 +1,66 @@
+<!-- 轮播图 -->
+<swiper indicator-dots="true" autoplay="true" interval="3000">
+  <block wx:for="{{index.swiper}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 顶部导航 -->
+<view class='nav'>
+    <navigator wx:for="{{index.nav}}" url='{{item.url}}' class='nva-item'>
+        <image src='{{item.src}}'></image>
+        {{item.title}}
+    </navigator>
+</view>
+<!-- 产品介绍 -->
+<view class='Jshao'>
+    <view class='Jshao-main'>
+        <view class='Jhshao-title'>
+            产品介绍
+        </view>
+        <view class='Jhshao-title'>
+            更多  >>
+        </view>
+    </view>
+    <view class='Jshao-main'>
+        <view class='Jhshao-item' wx:for="{{index.goods}}">
+          <navigator url='../Jshao/Jshao?id={{item.id}}'>
+            <image src='{{item.src[0]}}'></image>
+          </navigator>
+          <navigator url='../Jshao/Jshao?id={{item.id}}' class='title'>
+              {{item.title}}
+          </navigator>
+           <navigator url='../Jshao/Jshao?id={{item.id}}' class='Xqing'>
+              {{item.xqing}}
+          </navigator>
+        </view>
+    </view>
+</view>
+<!-- 底部导航 -->
+<view id='bottom'>
+    <navigator url='../index/index' open-type='redirect'>
+        <image src='../img/index-active.png'></image>
+        <view class='blue'>
+          首页
+        </view>
+    </navigator>
+     <navigator url='../Jjie/Jjie' open-type='redirect'>
+        <image src='../img/Jianjie.png'></image>
+        <view>
+          企业简介
+        </view>
+    </navigator>
+     <navigator url='../Jshao/Jshao' open-type='redirect'>
+        <image src='../img/Jshao.png'></image>
+        <view>
+          产品介绍
+        </view>
+    </navigator>
+     <navigator url='../Lxi/Lxi' open-type='redirect'>
+        <image src='../img/Kfu.png'></image>
+        <view>
+          联系我们
+        </view>
+    </navigator>
+</view>

@@ -1,0 +1,43 @@
+.fixtop{
+  font-weight: 700;
+  width: 682rpx;
+  display: flex;
+  position: fixed;
+  left: 34rpx;
+  top: 0;
+  height:96rpx;
+  border-bottom: 1px solid rgb(178, 178, 178) ;
+  justify-content: space-between
+}
+.top-item{
+  height:96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 30rpx
+}
+.top-active{
+  color: rgb(0,90,171);
+  border-bottom: 6rpx solid rgb(0,90,171);
+  box-sizing: border-box
+}
+.main{
+  width: 644rpx;
+  margin: 145rpx auto auto auto
+}
+.Bti{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight:bold
+}
+.FBti{
+  font-weight: 700;
+  text-align: center;
+  font-size: 24rpx
+}
+.p{
+  font-weight: 700;
+  text-indent:2em;
+  padding-top: 25rpx;
+  font-size: 24rpx;
+   line-height: 36rpx
+}

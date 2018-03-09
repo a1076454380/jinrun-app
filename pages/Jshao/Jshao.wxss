@@ -1,0 +1,25 @@
+.main{
+  width: 644rpx;
+  margin: 55rpx auto auto auto
+}
+.Bti{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight:bold
+}
+.FBti{
+  font-weight: 700;
+  text-align: center;
+  font-size: 24rpx
+}
+.p{
+  font-weight: 700;
+  text-indent:2em;
+  padding-top: 25rpx;
+  font-size: 24rpx;
+  line-height: 36rpx
+}
+.main image{
+  width: 100%;
+  height: 360rpx
+}

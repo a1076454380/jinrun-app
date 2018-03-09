@@ -1,0 +1,28 @@
+#bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height:98rpx;
+  border-top: 1px solid a2a2a2;
+  color: #a2a2a2;
+  font-size: 19rpx
+}
+#bottom image{
+  width: 37rpx;
+  height: 37rpx;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 8rpx
+}
+.blue{
+  color:  #005aab
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent
+}

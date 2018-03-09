@@ -1,0 +1,54 @@
+<!-- 地图 -->
+<map longitude="113.8959" latitude="22.5669" scale="18"  markers="{{markers}}"></map>
+<!-- 表单 -->
+<view class='form'>
+    <view class='form01'>
+      联系我们 
+    </view>
+     <view class='form02'>
+      Contact us
+    </view>
+    <view class='form-item'>
+        <image src='../img/Lxi01.png'></image>
+        <view>{{information.address}}</view>
+    </view>
+     <view class='form-item'>
+        <image src='../img/Lxi02.png'></image>
+        <view class='lan' bindtap='landline'>{{information.landline}}</view>
+    </view>
+     <view class='form-item'>
+        <image src='../img/Lxi03.png'></image>
+        <view bindtap='iphone'>{{information.iphone}}</view>
+    </view>
+    <view class='form-item'>
+        <image src=''></image>
+        <view>(联系人：{{information.contact}}）</view>
+    </view>
+</view> 
+<!-- 底部导航 -->
+<view id='bottom'>
+    <navigator url='../index/index'>
+        <image src='../img/index.png'></image>
+        <view>
+          首页
+        </view>
+    </navigator>
+     <navigator url='../Jjie/Jjie'>
+        <image src='../img/Jianjie.png'></image>
+        <view>
+          企业简介
+        </view>
+    </navigator>
+     <navigator url='../Jshao/Jshao'>
+        <image src='../img/Jshao.png'></image>
+        <view>
+          产品介绍
+        </view>
+    </navigator>
+     <navigator url='../Lxi/Lxi'>
+        <image src='../img/Kfu-active.png'></image>
+        <view class='blue'>
+          联系我们
+        </view>
+    </navigator>
+</view>

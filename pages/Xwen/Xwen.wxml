@@ -1,0 +1,45 @@
+<!-- 顶部推送 -->
+<view class='top'>
+    <image src='{{news[0].img[0]}}'></image>
+    <view class='Tbootom'>
+        <navigator class='tbmain' url='../Xqing/Xqing?id={{news[0].id}}'>
+           {{news[0].title}}
+        </navigator>  
+        <view class='tbmain typemain'>
+            <view class='type'>
+                {{news[0].source}}
+            </view>
+            <view class='type'>
+                 {{news[0].data}}
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 新闻主题 -->
+<view class='news' wx:for='{{news}}'>
+      <view class='newleft'>
+          <view class='viewtitle'>
+              <navigator url='../Xqing/Xqing?id={{item.id}}'>
+                  {{item.title}}
+              </navigator>
+          </view>
+           <view class='viewtime'>
+              <navigator url='../Xqing/Xqing?id={{item.id}}'>
+                   {{item.source}}
+              </navigator>
+              <navigator url='../Xqing/Xqing?id={{item.id}}'>
+                  {{item.data}}
+              </navigator>
+          </view>
+      </view>
+      <view class='newright'>
+          <navigator url='../Xqing/Xqing?id={{item.id}}'>
+              <image src='{{item.img[0]}}'></image>  
+          </navigator>  
+      </view>
+</view>
+<!-- 加载更多 -->
+<view class='more'>
+    <image src='../img/more.png' animation="{{animationData}}"></image>
+    加载更多
+</view>

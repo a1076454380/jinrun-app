@@ -1,0 +1,30 @@
+.title{
+  font-weight: bold;
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 55rpx
+}
+.Sjian{
+  display: flex;
+  justify-content: center;
+  font-size: 22rpx;
+  color: #999999;
+  padding-top: 19rpx
+}
+.Sjian view{
+  margin-right: 42rpx
+}
+image{
+  width: 644rpx;
+  height: 360rpx;
+  display: block;
+  margin: 30rpx auto auto auto
+}
+.p{
+  font-size: 24rpx;
+  line-height: 36rpx;
+  text-indent: 2em;
+  width: 644rpx;
+  margin: 30rpx auto auto auto;
+  font-weight: bold
+}
